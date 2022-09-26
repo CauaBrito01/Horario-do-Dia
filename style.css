@@ -1,0 +1,39 @@
+body{
+    background-color: #474849;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#main{
+    background-color: white;
+    border-radius: 10%;
+    width: 80vh;
+}
+
+#horario_atual{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+#imagem_horario{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+
+}
+
+#imagem_horario img {
+    width: 250px;
+    height: 250px;
+    border-radius: 100% ;
+    
+}
